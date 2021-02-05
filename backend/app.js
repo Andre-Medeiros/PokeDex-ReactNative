@@ -43,12 +43,20 @@ function obterConteudo() {
 
             //TIPOS DO POKEMON
             let queryType = pokemon.querySelectorAll('.type-icon');
+            
             if (queryType) {
                 pokemonRetorno.types = [];
-                for (const type of queryType) {
-                    pokemonRetorno.types.push(type.textContent)
+                for(let type of queryType){
+                    type2 = {
+
+                    }
+                    if (type){
+                        type2.type = type.textContent;
+                    }
+                    pokemonRetorno.types.push(type2);
                 }
             }
+            
 
             //TOTAL DE STATUS
             let queryTotal = pokemon.querySelector('.cell-total');

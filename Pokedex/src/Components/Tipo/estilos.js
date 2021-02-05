@@ -1,29 +1,15 @@
 import {StyleSheet} from 'react-native';
 
-const estilo = StyleSheet.create({
+const estilos = StyleSheet.create({
     
-    Grass: {
-        width: 100,
+    tipo: {
+        width: 70,
         height: 20,
-        backgroundColor: "green"
-    }, 
-
-    Poison: {
-        width: 100,
-        height: 20,
-        backgroundColor: "purple"
-    },
-
-    Fire: {
-        width: 100,
-        height: 20,
-        backgroundColor: "red"
-    },
-
-    Flying: {
-        width: 100,
-        height: 20,
-        backgroundColor: "blue"
+        borderRadius:50,
+        borderColor: '#ccc',
+        borderStyle: 'solid',
+        borderWidth: 1,
+        textAlign: 'center'
     },
 
     cabecalho:{
@@ -33,4 +19,4 @@ const estilo = StyleSheet.create({
     
 })
 
-export default estilo;
+export default estilos;
