@@ -7,6 +7,9 @@ const estilos = StyleSheet.create({
         borderStyle: 'solid',
         borderColor: 'black',
         borderWidth: 1
+    },
+    botao:{
+        marginLeft: 20
     }
   })
 
